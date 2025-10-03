@@ -1,0 +1,56 @@
+body{
+    color:rgb(0, 0, 0);
+    background:rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 100px 
+}
+
+header{
+    border-bottom:solid 2px rgb(85, 59, 139);
+    padding: 20px;
+    font-size: 32;
+    color:rgb(87, 67, 173);
+     font-family: "Rubik Glitch", system-ui;
+}
+
+.chamada{
+    background: rgb(159, 115, 207);
+    padding-bottom:80px;
+    padding-top:80px;
+    display:flex;
+    justify-content:center;
+}
+
+chamada-texto {
+    margin-right:5%;
+}
+h1{ font-size:40px
+
+}
+
+p{
+    font-size:20px
+}
+img{
+    height:200px;
+}
+.categoria-viseos {
+display: flex;
+overflow-x: auto;
+gap:10px
+}
+
+.categoria{
+    padding-left:20px;
+    padding-right:20px;
+}
+.categoria-viseos img{
+    opacity:0.5
+}
+.categoria-viseos img:hover{
+    opacity:1.0;
+     border: 1px solid rgb(128, 0, 107);
+}
+.categoria h2{
+    color: rgb(87, 67, 173);
+}
